@@ -2,7 +2,7 @@ package subsistema2.cep;
 
 public class CepApi {
 
-	private static CepApi instancia = new CepApi();
+	private static final CepApi instancia = new CepApi();
 
 	private CepApi() {
 		super();
@@ -13,10 +13,10 @@ public class CepApi {
 	}
 	
 	public String recuperarCidade(String cep) {
-		return "Araraquara";
+		return "Pinhais";
 	}
 	
 	public String recuperarEstado(String cep) {
-		return "SP";
+		return "PR";
 	}
 }

@@ -3,11 +3,11 @@ package one.digitalinnovation.gof.singleton;
 /**
  * Singleton "apressado".
  * 
- * @author falvojr
+ * @author alan
  */
 public class SingletonEager {
 
-	private static SingletonEager instancia = new SingletonEager();
+	private static final SingletonEager instancia = new SingletonEager();
 	
 	private SingletonEager() {
 		super();
